@@ -14,7 +14,6 @@ gsap.from('.projects',{scrollTrigger: {
   trigger: '.projects',
   start:'-30% 60%',
   end: '200px 70%',
-  markers: true,
   scrub: 1.5,
   toggleActions: "play none none none"
 },opacity:0, duration:1, y:200});
