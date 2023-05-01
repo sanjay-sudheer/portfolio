@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 * {
@@ -121,6 +122,8 @@ body {
 
 
 @media (max-width: 598px) {
+
+  
   .text {
     font-size: 1em;
     color: azure;
@@ -138,6 +141,13 @@ body {
     color: azure;
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 100px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    margin-bottom: 200px;
+    width: 80%;
   }
 
 }
