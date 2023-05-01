@@ -27,8 +27,8 @@ if (window.innerWidth > 598 ) {
 else{
   gsap.from('.about',{scrollTrigger: {
     trigger: '.about',
-    start:'-15% 20%',
-    end:'200px 300px',
+    start:'-20% 60%',
+    end:'600px 500px',
     scrub: 1.5,
     toggleActions: "play none none none"
   },opacity:0, duration:1});
