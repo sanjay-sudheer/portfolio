@@ -1,6 +1,6 @@
 
 gsap.registerPlugin(ScrollTrigger);
-gsap.from('.landing',{opacity:0, duration:2, x: -50});
+
 
 
 gsap.from('.projects',{scrollTrigger: {
@@ -33,4 +33,26 @@ else{
     toggleActions: "play none none none"
   },opacity:0, duration:1});
 }
+
+
+var splash = new Splash({background: 'black'}, {
+  use: true,
+  start: FancyAnimation.moveIn,
+  end: FancyAnimation.moveOut
+});
+
+splash.fromText("HELLO:)", 4000, {
+  color: 'WHITE',
+  'font-size':'30px',
+  'font-family': 'Bruno Ace SC'
+})
+
+
+const el = document.getElementById('delay');
+
+setTimeout(() => {
+  el.style.visibility = 'visible';
+}, 500);
+
+
 
