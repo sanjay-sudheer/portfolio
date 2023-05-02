@@ -13,12 +13,6 @@ body {
   padding: 0;
 }
 
-#delay{
-  visibility: hidden;
-}
-
-
-
 .landing {
   display: flex;
   justify-content: space-between;
