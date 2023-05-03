@@ -1,5 +1,14 @@
+const el1=document.getElementById('intro');
+const el2=document.querySelector('body');
 
-gsap.registerPlugin(ScrollTrigger);
+setTimeout(()=>{
+  el1.remove();
+  el2.style.overflow='visible';
+},4000);
+
+
+setTimeout(()=>{
+  gsap.registerPlugin(ScrollTrigger);
 gsap.from('.landing',{opacity:0, duration:2, x: -50});
 
 
@@ -33,4 +42,5 @@ else{
     toggleActions: "play none none none"
   },opacity:0, duration:1});
 }
+},4001);
 
