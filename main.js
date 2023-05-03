@@ -1,6 +1,7 @@
 const el1=document.getElementById('intro');
 const el2=document.querySelector('body');
 
+
 setTimeout(()=>{
   el1.remove();
   el2.style.overflow='visible';
