@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: intro 4s;
+  animation: intro 2.5s;
 }
 
 @keyframes intro {

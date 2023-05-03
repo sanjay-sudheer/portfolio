@@ -5,7 +5,7 @@ const el2=document.querySelector('body');
 setTimeout(()=>{
   el1.remove();
   el2.style.overflow='visible';
-},4000);
+},3000);
 
 
 setTimeout(()=>{
@@ -43,5 +43,5 @@ else{
     toggleActions: "play none none none"
   },opacity:0, duration:1});
 }
-},4001);
+},3001);
 
